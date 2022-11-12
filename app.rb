@@ -90,7 +90,7 @@ class App
 
   def create_person
     print 'Do you want to create a student (1) or a teacher (2)? [Input the number]: '
-    num_input = gets.chomp.to_i
+    num_input = gets.chomp
     case num_input
     when 1
       create_student
